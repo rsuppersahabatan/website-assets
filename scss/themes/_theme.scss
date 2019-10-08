@@ -1,0 +1,72 @@
+// Green theme 
+
+a {
+  &:hover, &:focus {
+    color: $brand-color;
+  }
+}
+
+#navigation {
+  border-top: 5px solid $brand-color;
+}
+
+a, .tp-caption a.btn:hover {
+  color: $brand-color;
+}
+
+.top-nav-collapse {
+  background: $brand-color;
+}
+
+.carousel-indicators .active, .header-text h2 span {
+  background-color: $brand-color;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+  color: $brand-color;
+}
+
+.owl-theme .owl-controls {
+  .owl-page.active span, &.clickable .owl-page:hover span {
+    background-color: $brand-color;
+  }
+}
+
+.widget-avatar .avatar:hover {
+  border: 5px solid $brand-color;
+}
+
+.bg-skin {
+  background: $brand-color;
+}
+
+.highlight-color {
+  background-color: $brand-color;
+}
+
+.service-box:hover {
+  border-bottom: 2px solid $brand-color;
+}
+
+form {
+  &#contact-form {
+    input:focus, select:focus, textarea:focus {
+      border-color: $brand-color;
+    }
+  }
+  &.search-form input:focus {
+    border-color: $brand-color;
+  }
+}
+
+/* footer */
+
+ul.footer-menu li a:hover, footer a.totop:hover {
+  color: $brand-color;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: $brand-color;
+  border-color: $brand-color;
+}

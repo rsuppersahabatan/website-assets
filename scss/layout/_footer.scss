@@ -1,0 +1,70 @@
+/* ===========================
+--- Bottom
+============================ */
+
+.boxcol-25 {
+  width: 100%;
+}
+
+.box-social {
+  list-style: none;
+  li {
+    width: 25%;
+    float: left;
+  }
+  .social-facebook a {
+    display: block;
+    background: #3873ae;
+  }
+}
+
+/* ===========================
+--- Footer
+============================ */
+
+footer {
+  background-color: #404040;
+  text-align: center;
+  padding: 30px 0 10px;
+  p {
+    color: rgba(248, 248, 248, .3); // #f8f8f8 to #00F8F8
+    font-size: 14px;
+  }
+  a.totop {
+    color: #fff;
+    margin-bottom: 30px;
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  /* menu */
+  ul.footer-menu {
+    list-style: none;
+    li {
+      float: left;
+      margin: 0 0 0 10px;
+      a {
+        color: rgba(248, 248, 248, .3); // #f8f8f8 to #00F8F8
+        font-size: 14px;
+        padding-left: 9px;
+        line-height: 1.1em;
+      }
+      &:first-child a {
+        border-left: none;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .social-widget {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    ul li a:hover {
+      color: #fff;
+    }
+    ul.team-social li a {
+      margin: 0 5px;
+    }
+  }
+}

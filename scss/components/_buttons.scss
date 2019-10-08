@@ -1,0 +1,106 @@
+.btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+
+.btn-theme {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 15px;
+  &:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+/* --- button --- */
+
+.btn {
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  &.btn-noradius {
+    border-radius: 0;
+  }
+}
+
+a.btn:focus {
+  outline: 0;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #c83539;
+  border-color: #c83539;
+  &:hover, &:focus, &:active, &.active {
+    color: #fff;
+    background-color: #666;
+    border-color: #666;
+  }
+  &:active {
+    background-image: none;
+  }
+}
+
+.btn-skin {
+  &:hover, &:focus, &:active, &.active {
+    color: #fff;
+    background-color: #666;
+    border-color: #666;
+  }
+}
+
+.btn-default {
+  &:hover, &:focus {
+    border: 1px solid #28c3ab;
+    outline: 0;
+    color: #000;
+    background-color: #28c3ab;
+  }
+}
+
+.btn-huge {
+  padding: 25px;
+  font-size: 26px;
+}
+
+.banner-social-buttons {
+  margin-top: 0;
+}
+
+// Learn more button 
+
+.learn-more-btn {
+  color: $brand-color;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 1);
+  padding: 20px 40px;
+  margin: 60px 0 0;
+  display: inline-block;
+  
+  @include border-radius(5px);
+  
+  -webkit-box-shadow: 0px 3px 0px 0px $brand-color;
+     -moz-box-shadow: 0px 3px 0px 0px $brand-color;
+          box-shadow: 0px 3px 0px 0px $brand-color;
+  
+  &:hover, &:focus {
+    color: #FFF;
+    background: $brand-color;
+    -webkit-box-shadow: 0px 3px 0px 0px #FFF;
+       -moz-box-shadow: 0px 3px 0px 0px #FFF;
+            box-shadow: 0px 3px 0px 0px #FFF;
+  }
+}

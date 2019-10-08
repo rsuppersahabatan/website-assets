@@ -1,0 +1,49 @@
+/* ===========================
+--- Intro
+============================ */
+
+.hero {
+  background: url(../img/hero-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 200px 0 200px 0;
+  height: auto;
+  h1 {
+    font-size: 40px;
+    letter-spacing: 12px;
+    margin: 40px 0 10px;
+    font-weight: 900;
+    color: #fff;
+    span {
+      color: #a1a9b0;
+      display: inline-block;
+    }
+  }
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fefefe;
+  }
+}
+
+.intro {
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.intro-inner {
+  width: 100%;
+  position: relative;
+  padding: 120px 0 20px;
+}
+
+.brand-heading {
+  font-size: 40px;
+}
+
+.intro-text {
+  font-size: 18px;
+}

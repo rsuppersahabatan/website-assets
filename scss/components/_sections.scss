@@ -1,0 +1,121 @@
+/* misc */
+hr {
+  margin-top: 10px;
+  &.bold {
+    border-top: 3px solid #eee; 
+  }
+}
+
+.divider-header {
+	display: block;
+	width: 40px;
+	height: 2px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.divider-short {
+	display: block;
+	width: 60px;
+	height: 5px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+/* margins */
+.marginbot-0{margin-bottom:0 !important;}
+.marginbot-10{margin-bottom:10px !important;}
+.marginbot-20{margin-bottom:20px !important;}
+.marginbot-30{margin-bottom:30px !important;}
+.marginbot-40{margin-bottom:40px !important;}
+.marginbot-50{margin-bottom:50px !important;}
+.marginbot-60{margin-bottom:60px !important;}
+.marginbot-70{margin-bottom:70px !important;}
+.marginbot-80{margin-bottom:80px !important;}
+.marginbot-90{margin-bottom:90px !important;}
+.marginbot-100{margin-bottom:100px !important;}
+
+.margintop-0{margin-top:0 !important;}
+.margintop-10{margin-top:10px !important;}
+.margintop-20{margin-top:20px !important;}
+.margintop-30{margin-top:30px !important;}
+.margintop-40{margin-top:40px !important;}
+.margintop-45{margin-top:45px !important;}
+.margintop-50{margin-top:50px !important;}
+
+/* ===========================
+--- Services
+============================ */
+
+.service-box {
+  background: #fff;
+  border-bottom: 2px solid #f7f7f7;
+  padding: 40px 20px;
+  &:hover {
+    @include transition(all .2s ease-in-out);
+    margin-top: -20px;
+  }
+}
+
+.service-icon {
+  margin-bottom: 20px;
+}
+
+.service-desc {
+  h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .divider-header {
+    margin-bottom: 30px;
+  }
+}
+
+/* ===========================
+--- Works
+============================ */
+
+#owl-works {}
+
+.item {
+  margin: 10px;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* === testimonial slide === */
+
+.testimonialslide {
+  margin-top: 0;
+  padding-top: 0;
+  ul li {
+    blockquote {
+      color: #fff;
+      border-left: none;
+    }
+    h4 {
+      color: #fff;
+      font-weight: 900;
+      span {
+        color: #fff;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+/* --- progress --- */
+.progress {
+  height: 40px;
+
+}
+.progress-bar {
+  font-size: 14px;
+  line-height: 40px;
+}

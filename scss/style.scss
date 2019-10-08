@@ -1,0 +1,54 @@
+/**
+ * Main theme styles
+ *
+ * This file contains all the elements needed to change the 
+ * appearance of the app. 
+ *
+ * @project   <http://pagestudiocms.com> 
+ * @version   0.1.0
+ * @package   xhtml-css
+ * @author    Cosmo Mathieu <http://cosmointeractive.co> 
+ * @copyright 2016 <http://pagestudiocms.com>
+ * @file      style.css
+ * @css-for   IE 11+, Safari 6+, Firefox 4+
+ * 
+ * --------------------------------------------------------------
+ * Table of Contents
+ * --------------------------------------------------------------
+ * 1.0 - Reset
+ * 
+ * 
+ * --------------------------------------------------------------
+ * Color Glossary - needs updating
+ * --------------------------------------------------------------
+ * Dark gray (text):            #333333
+ *
+ */ 
+// --------------------------------------------------------------
+// Sass file Imports
+// --------------------------------------------------------------
+@import "helpers/variables";   // Custom Sass variables
+@import "vendors/bootstrap/bootstrap";  // Bootstrap defaults
+// @import "vendors/animate/animate";  // Animate.css
+@import "mixins/css3-mixins/css3-mixins.scss"; // Mixins 
+// @import "mixins/mixins";       // Theme specific mixins 
+
+// --------------------------------------------------------------
+// Base - style reset etc.
+// --------------------------------------------------------------
+@import "base/base"; 
+
+// --------------------------------------------------------------
+// Components
+// --------------------------------------------------------------
+@import "components/base"; 
+
+// --------------------------------------------------------------
+// Components
+// --------------------------------------------------------------
+@import "layout/base"; 
+
+// --------------------------------------------------------------
+// Components
+// --------------------------------------------------------------
+@import "themes/theme"; 

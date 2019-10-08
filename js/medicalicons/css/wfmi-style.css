@@ -1,0 +1,457 @@
+@font-face {
+	font-family: 'webfont-medical-icons';
+	src:url('../fonts/webfont-medical-icons.eot');
+	src:url('../fonts/webfont-medical-icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/webfont-medical-icons.ttf') format('truetype'),
+		url('../fonts/webfont-medical-icons.woff') format('woff'),
+		url('../fonts/webfont-medical-icons.svg#webfont-medical-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="medic-"], [class*=" medic-"] {
+	font-family: 'webfont-medical-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.medic-i-womens-health:before {
+	content: "\e600";
+}
+.medic-i-waiting-area:before {
+	content: "\e601";
+}
+.medic-i-volume-control:before {
+	content: "\e602";
+}
+.medic-i-ultrasound:before {
+	content: "\e603";
+}
+.medic-i-text-telephone:before {
+	content: "\e604";
+}
+.medic-i-surgery:before {
+	content: "\e605";
+}
+.medic-i-stairs:before {
+	content: "\e606";
+}
+.medic-i-radiology:before {
+	content: "\e607";
+}
+.medic-i-physical-therapy:before {
+	content: "\e608";
+}
+.medic-i-pharmacy:before {
+	content: "\e609";
+}
+.medic-i-pediatrics:before {
+	content: "\e60a";
+}
+.medic-i-pathology:before {
+	content: "\e60b";
+}
+.medic-i-outpatient:before {
+	content: "\e60c";
+}
+.medic-i-mental-health:before {
+	content: "\e60d";
+}
+.medic-i-medical-records:before {
+	content: "\e60e";
+}
+.medic-i-medical-library:before {
+	content: "\e60f";
+}
+.medic-i-mammography:before {
+	content: "\e610";
+}
+.medic-i-laboratory:before {
+	content: "\e611";
+}
+.medic-i-labor-delivery:before {
+	content: "\e612";
+}
+.medic-i-immunizations:before {
+	content: "\e613";
+}
+.medic-i-imaging-root-category:before {
+	content: "\e614";
+}
+.medic-i-imaging-alternative-pet:before {
+	content: "\e615";
+}
+.medic-i-imaging-alternative-mri:before {
+	content: "\e616";
+}
+.medic-i-imaging-alternative-mri-two:before {
+	content: "\e617";
+}
+.medic-i-imaging-alternative-ct:before {
+	content: "\e618";
+}
+.medic-i-fire-extinguisher:before {
+	content: "\e619";
+}
+.medic-i-family-practice:before {
+	content: "\e61a";
+}
+.medic-i-emergency:before {
+	content: "\e61b";
+}
+.medic-i-elevators:before {
+	content: "\e61c";
+}
+.medic-i-ear-nose-throat:before {
+	content: "\e61d";
+}
+.medic-i-drinking-fountain:before {
+	content: "\e61e";
+}
+.medic-i-cardiology:before {
+	content: "\e61f";
+}
+.medic-i-billing:before {
+	content: "\e620";
+}
+.medic-i-anesthesia:before {
+	content: "\e621";
+}
+.medic-i-ambulance:before {
+	content: "\e622";
+}
+.medic-i-alternative-complementary:before {
+	content: "\e623";
+}
+.medic-i-administration:before {
+	content: "\e624";
+}
+.medic-i-social-services:before {
+	content: "\e625";
+}
+.medic-i-smoking:before {
+	content: "\e626";
+}
+.medic-i-restrooms:before {
+	content: "\e627";
+}
+.medic-i-restaurant:before {
+	content: "\e628";
+}
+.medic-i-respiratory:before {
+	content: "\e629";
+}
+.medic-i-registration:before {
+	content: "\e62a";
+}
+.medic-i-oncology:before {
+	content: "\e62b";
+}
+.medic-i-nutrition:before {
+	content: "\e62c";
+}
+.medic-i-nursery:before {
+	content: "\e62d";
+}
+.medic-i-no-smoking:before {
+	content: "\e62e";
+}
+.medic-i-neurology:before {
+	content: "\e62f";
+}
+.medic-i-mri-pet:before {
+	content: "\e630";
+}
+.medic-i-interpreter-services:before {
+	content: "\e631";
+}
+.medic-i-internal-medicine:before {
+	content: "\e632";
+}
+.medic-i-intensive-care:before {
+	content: "\e633";
+}
+.medic-i-inpatient:before {
+	content: "\e634";
+}
+.medic-i-information-us:before {
+	content: "\e635";
+}
+.medic-i-infectious-diseases:before {
+	content: "\e636";
+}
+.medic-i-hearing-assistance:before {
+	content: "\e637";
+}
+.medic-i-health-services:before {
+	content: "\e638";
+}
+.medic-i-health-education:before {
+	content: "\e639";
+}
+.medic-i-gift-shop:before {
+	content: "\e63a";
+}
+.medic-i-genetics:before {
+	content: "\e63b";
+}
+.medic-i-first-aid:before {
+	content: "\e63c";
+}
+.medic-i-dermatology:before {
+	content: "\e63d";
+}
+.medic-i-dental:before {
+	content: "\e63e";
+}
+.medic-i-coffee-shop:before {
+	content: "\e63f";
+}
+.medic-i-chapel:before {
+	content: "\e640";
+}
+.medic-i-cath-lab:before {
+	content: "\e641";
+}
+.medic-i-care-staff-area:before {
+	content: "\e642";
+}
+.medic-i-accessibility:before {
+	content: "\e643";
+}
+.medic-i-diabetes-education:before {
+	content: "\e644";
+}
+.medic-i-hospital:before {
+	content: "\e645";
+}
+.medic-i-kidney:before {
+	content: "\e646";
+}
+.medic-i-ophthalmology:before {
+	content: "\e647";
+}
+.medic-womens-health:before {
+	content: "\e648";
+}
+.medic-waiting-area:before {
+	content: "\e649";
+}
+.medic-volume-control:before {
+	content: "\e64a";
+}
+.medic-ultrasound:before {
+	content: "\e64b";
+}
+.medic-text-telephone:before {
+	content: "\e64c";
+}
+.medic-surgery:before {
+	content: "\e64d";
+}
+.medic-stairs:before {
+	content: "\e64e";
+}
+.medic-radiology:before {
+	content: "\e64f";
+}
+.medic-physical-therapy:before {
+	content: "\e650";
+}
+.medic-pharmacy:before {
+	content: "\e651";
+}
+.medic-pediatrics:before {
+	content: "\e652";
+}
+.medic-pathology:before {
+	content: "\e653";
+}
+.medic-outpatient:before {
+	content: "\e654";
+}
+.medic-ophthalmology:before {
+	content: "\e655";
+}
+.medic-mental-health:before {
+	content: "\e656";
+}
+.medic-medical-records:before {
+	content: "\e657";
+}
+.medic-medical-library:before {
+	content: "\e658";
+}
+.medic-mammography:before {
+	content: "\e659";
+}
+.medic-laboratory:before {
+	content: "\e65a";
+}
+.medic-labor-delivery:before {
+	content: "\e65b";
+}
+.medic-kidney:before {
+	content: "\e65c";
+}
+.medic-immunizations:before {
+	content: "\e65d";
+}
+.medic-imaging-root-category:before {
+	content: "\e65e";
+}
+.medic-imaging-alternative-pet:before {
+	content: "\e65f";
+}
+.medic-imaging-alternative-mri:before {
+	content: "\e660";
+}
+.medic-imaging-alternative-mri-two:before {
+	content: "\e661";
+}
+.medic-imaging-alternative-ct:before {
+	content: "\e662";
+}
+.medic-hospital:before {
+	content: "\e663";
+}
+.medic-fire-extinguisher:before {
+	content: "\e664";
+}
+.medic-family-practice:before {
+	content: "\e665";
+}
+.medic-emergency:before {
+	content: "\e666";
+}
+.medic-elevators:before {
+	content: "\e667";
+}
+.medic-ear-nose-throat:before {
+	content: "\e668";
+}
+.medic-drinking-fountain:before {
+	content: "\e669";
+}
+.medic-diabetes-education:before {
+	content: "\e66a";
+}
+.medic-cardiology:before {
+	content: "\e66b";
+}
+.medic-billing:before {
+	content: "\e66c";
+}
+.medic-anesthesia:before {
+	content: "\e66d";
+}
+.medic-ambulance:before {
+	content: "\e66e";
+}
+.medic-alternative-complementary:before {
+	content: "\e66f";
+}
+.medic-administration:before {
+	content: "\e670";
+}
+.medic-accessibility:before {
+	content: "\e671";
+}
+.medic-social-services:before {
+	content: "\e672";
+}
+.medic-smoking:before {
+	content: "\e673";
+}
+.medic-restrooms:before {
+	content: "\e674";
+}
+.medic-restaurant:before {
+	content: "\e675";
+}
+.medic-respiratory:before {
+	content: "\e676";
+}
+.medic-oncology:before {
+	content: "\e677";
+}
+.medic-nutrition:before {
+	content: "\e678";
+}
+.medic-nursery:before {
+	content: "\e679";
+}
+.medic-no-smoking:before {
+	content: "\e67a";
+}
+.medic-neurology:before {
+	content: "\e67b";
+}
+.medic-mri-pet:before {
+	content: "\e67c";
+}
+.medic-interpreter-services:before {
+	content: "\e67d";
+}
+.medic-internal-medicine:before {
+	content: "\e67e";
+}
+.medic-intensive-care:before {
+	content: "\e67f";
+}
+.medic-inpatient:before {
+	content: "\e680";
+}
+.medic-information-us:before {
+	content: "\e681";
+}
+.medic-infectious-diseases:before {
+	content: "\e682";
+}
+.medic-hearing-assistance:before {
+	content: "\e683";
+}
+.medic-health-services:before {
+	content: "\e684";
+}
+.medic-health-education:before {
+	content: "\e685";
+}
+.medic-gift-shop:before {
+	content: "\e686";
+}
+.medic-genetics:before {
+	content: "\e687";
+}
+.medic-first-aid:before {
+	content: "\e688";
+}
+.medic-dental:before {
+	content: "\e689";
+}
+.medic-coffee-shop:before {
+	content: "\e68a";
+}
+.medic-chapel:before {
+	content: "\e68b";
+}
+.medic-cath-lab:before {
+	content: "\e68c";
+}
+.medic-care-staff-area:before {
+	content: "\e68d";
+}
+.medic-registration:before {
+	content: "\e68e";
+}
+.medic-dermatology:before {
+	content: "\e68f";
+}

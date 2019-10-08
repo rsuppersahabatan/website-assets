@@ -1,0 +1,1 @@
+function openPagesTelpon(){$.facebox.settings.overlay="false",$.facebox(function(){$.post("{{ helper:site_url }}fasilitas/yansos/detail",function(t){$.facebox(t)})})}$(document).ready(function(){stickybits(".artikel_kanan, .berita_kanan",{stickyBitStickyOffset:75})});

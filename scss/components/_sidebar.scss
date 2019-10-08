@@ -1,0 +1,76 @@
+/* ==== Sidebar ==== */
+
+.sidebar .widget {
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  margin-bottom: 50px;
+}
+
+.widget ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.sidebar .widget ul li {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 10px;
+  a {
+    color: #666;
+  }
+}
+
+.widget {
+  &.widget_categories ul li:before {
+    display: inline-block;
+    font-family: 'Pe-icon-7-stroke';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e684";
+    margin-right: 10px;
+  }
+  &.widget_recent_post ul li {
+    figure {
+      float: left;
+      margin: 0 20px 0 0;
+    }
+    margin-bottom: 25px;
+    &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+    h6 {
+      margin-bottom: 10px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .tagcloud a {
+    padding: 4px 10px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    font-size: 14px;
+    border-radius: 2px;
+    &:hover {
+      color: #fff;
+      background: #333;
+    }
+  }
+}

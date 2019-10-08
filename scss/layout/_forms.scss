@@ -1,0 +1,53 @@
+.form-group {
+  margin-bottom: 20px;
+}
+
+form#contact-form {
+  .form-group label {
+    text-align: left !important;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  input, select, textarea {
+    font-size: 14px;
+    line-height: 1.6em;
+    border: 1px solid #eee;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 2px;
+  }
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  border-radius: 2px;
+}
+
+form#contact-form {
+  input:focus, select:focus, textarea:focus {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.input-group-addon {
+  background-color: #fefefe;
+  border: 1px solid #eee;
+}
+
+.widget-contact {
+  text-align: left;
+}
+
+/* --- widget --- */
+
+form.search-form input {
+  font-size: 18px;
+  line-height: 1.6em;
+  border: 1px solid #eee;
+  @include box-shadow(none);
+  border-radius: 2px;
+  &:focus {
+    @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.05));
+  }
+}

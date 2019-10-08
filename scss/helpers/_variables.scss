@@ -1,0 +1,35 @@
+// Font-weights
+// --------------------------
+$font-weight-thin:    100;
+$font-weight-light:   200;
+$font-weight-normal:  300;
+$font-weight-regular: $font-weight-normal;
+$font-weight-medium:  400;
+$font-weight-bold:    600;
+$font-weight-bolder:  700;
+
+// $brand-color:         #3DC9B3; // Green
+// $brand-color:         #16A085; // Dark Green
+$brand-color:         #EA533F; // Red 
+// $brand-color:         #D2582B; // Dark red
+
+// --------------------------------------------------------------
+// Bootstrap variables are found in bootstrap/_variables.scss
+// --------------------------------------------------------------
+$desktop: 1200px;
+$tablet: 992px;
+$phone: 440px;
+
+// Booptstrap overide 
+// --------------------------
+$brand-primary: #EA533F !default;
+$brand-secondary: #2C3136 !default; // #2F2F2F
+$link-color:  #EA533F !default;
+$link-hover-color:   #c0392b !default;
+
+$font-family-sans-serif:  'Ek Mukta', sans-serif !default;
+// $font-size-base:           16px !default;
+
+$headings-font-family:    'Roboto', sans-serif !default;
+$headings-font-weight:    $font-weight-normal !default;
+$headings-color:          #333 !default;

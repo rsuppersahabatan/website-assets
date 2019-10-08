@@ -1,0 +1,120 @@
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #111;
+  // font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px;
+  
+  &.h-xlight  {
+    font-weight: 200;
+  }
+  &.h-light  {
+    font-weight: 300;
+  }
+  &.h-bold  {
+    font-weight: 600;
+  }
+  &.font-light {
+    color: #fff;
+  }
+}
+
+p {
+  margin: 0 0 20px;
+  &.lead {
+    font-weight: 600;
+  }
+}
+
+a {
+  color: #666;
+  @include  transition(all .2s ease-in-out);
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 24px;
+	line-height: 1.5em;
+  font-weight: 300;
+  color: #999;
+  
+  &.bg-light {
+    background-color: rgba(255,255,255,.8);
+    padding: 20px;
+    color: #222;
+  }
+  &.bg-dark {
+    background-color: rgba(0,0,0,.8);
+    padding: 20px;
+  }
+  strong {
+    font-weight: 700;
+  }
+}
+
+// -----------------------------------------------------------------
+// Custom classes 
+// -----------------------------------------------------------------
+
+.header-text {
+  h2 {
+    font-size: 40px;
+    span {
+      padding: 10px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+  h3 span {
+    color: #fff;
+  }
+}
+
+.big-heading {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.highlight-light {
+	background-color: rgba(255,255,255,.5);
+	padding: 20px;
+	display: inline-block;
+	color: #111;
+}
+.highlight-dark {
+	background-color: rgba(0,0,0,.5);
+	padding: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.highlight-color {
+	padding: 20px;
+	display: inline-block;
+}

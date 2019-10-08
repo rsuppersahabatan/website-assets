@@ -1,0 +1,85 @@
+/* ===========================
+--- General sections
+============================ */
+
+.home-section {
+  padding-top: 150px;
+  padding-bottom: 110px;
+  display: block;
+  position: relative;
+  z-index: 120;
+}
+
+.inner-section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.home-section.nopadd-bot {
+  padding-bottom: 0;
+}
+
+.section-heading {
+  h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.6em;
+  }
+}
+
+.color-dark {
+  .section-heading {
+    h2 {
+      color: #111;
+    }
+    p {
+      color: #444;
+    }
+  }
+  .divider-short, .divider-header {
+    background: #666;
+  }
+}
+
+.color-light {
+  .divider-short, .divider-header {
+    background: #666;
+  }
+  .section-heading {
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #fefefe;
+    }
+  }
+  blockquote, p {
+    color: #fefefe;
+  }
+}
+
+/* --- section bg var --- */
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-gray {
+  background: #f9f9f9;
+}
+
+.bg-dark {
+  background: #404040;
+}
+
+/* --- section color var --- */
+
+.text-light {
+  color: #fff;
+}

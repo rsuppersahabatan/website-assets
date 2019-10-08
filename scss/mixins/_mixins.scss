@@ -1,0 +1,132 @@
+// --------------------------------------------------------------
+// Background mixins
+// --------------------------------------------------------------
+@mixin background-fullsize($image, $color:transparent) {
+  background: $color url($image) center/cover no-repeat; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+@mixin background-stretched($image) {    
+  background-attachment: scroll;
+  background-image: url($image);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+@mixin background-cover() {
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+@mixin background-color($color, $opacity: 100) { 
+    background: $color; // The Fallback
+    background: rgba($color, $opacity);
+}
+
+// --------------------------------------------------------------
+// Placehold mixin
+//
+// Usage:
+// .foo {
+//   @include placeholder {
+//     color: green;
+//   }
+// }
+// --------------------------------------------------------------
+@mixin optional-at-root($sel) {
+  @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+    @content;
+  }
+}
+@mixin placeholder {
+  @include optional-at-root('::-webkit-input-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root(':-moz-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root('::-moz-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root(':-ms-input-placeholder') {
+    @content;
+  }
+}
+
+// --------------------------------------------------------------
+// Shadow mixins
+// --------------------------------------------------------------
+
+// --------------------------------------------------------------
+// Utility Mixins
+// --------------------------------------------------------------
+@mixin text-selection-color($bg-color: #ffb7b7, $text-color: #FFFFFF) {
+  ::selection {
+    color: $text-color;
+    background: $bg-color; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    color: $text-color;
+    background: $bg-color; /* Gecko Browsers */
+  }
+} 
+
+@mixin button-variant-alt(
+  $color, $background, $border, 
+  $color-hover: $background, $background-hover: $color, $border-hover: ''
+) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: $color-hover;
+    background-color: $background-hover;
+    
+    @if $border-hover != '' {
+      border-color: $border-hover;
+    } @else {
+      border-color: darken($border, 6%);
+    }
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $background;
+          border-color: $border;
+    }
+  }
+
+  .badge {
+    color: $background;
+    background-color: $color;
+  }
+}
